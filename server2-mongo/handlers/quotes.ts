@@ -1,7 +1,7 @@
 import { MongoClient } from "../deps.ts"
 import { Quote } from "../types/quote.ts"
 
-const URI = 'mongodb://127.0.0.1:27017/'
+const URI = 'mongodb://127.0.0.1:8080/'
 
 const client = new MongoClient()
 

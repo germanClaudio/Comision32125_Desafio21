@@ -6,7 +6,6 @@ const users = [
 ]
 
 
-
 export const findUser = async (uuid: Uuid) => {
     console.log(users)
     return new Promise( (res, rej ) => {
